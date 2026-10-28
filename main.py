@@ -8,7 +8,7 @@ app = FastAPI(title="Stroke Prediction API")
 
 MODEL_PATH = Path(__file__).parent / "models" / "logistic_regression.joblib"
 model = joblib.load(MODEL_PATH)
-
+#main
 
 class PatientData(BaseModel):
     gender: str

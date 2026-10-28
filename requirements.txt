@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn
+joblib
+pandas
+scikit-learn == 1.9.1
+xgboost
+pytest
+httpx
